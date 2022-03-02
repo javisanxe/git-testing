@@ -57,3 +57,13 @@
 //Branching and merging
 //BRACHES son las diferentes ramas de desarrollo en paralelo. Por ejemplo, una vez estamos en la version 2, podemos crear una rama con una version 3a principal (master/main) y otra version 3b para probar cosas nuevas temporales o testing.
 //Si el testing es satisfactorio en la rama de pruebas y queremos incorporarla al projecto principal, podemos hacerlo mediante un MERGE
+
+  //New branch
+  git branch testing-brunch-name
+  git branch //See what branches you have, * indica branch actual
+  git checkout testing-brunch-name //Cambiar a la nueva branch
+  //*Cuando cambias de una brunch a otra, los archivos cambian en tu carpeta también
+
+
+  git merge testing-brunch-name //Merge brunch to master brunch local
+  git push -u origin master //Push changes to Github
